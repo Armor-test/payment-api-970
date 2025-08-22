@@ -1,0 +1,36 @@
+# CODEOWNERS file for payment-api-970
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-reporting @Armor-test/squad-ml @Armor-test/dept-release
+
+# Directory ownership
+/third_party/ @Armor-test/dept-notifications @Armor-test/squad-mobile @Armor-test/grp-reporting
+/security/ @Armor-test/dept-api @Armor-test/dept-billing @Armor-test/unit-design
+/public/ @Armor-test/dept-release @Armor-test/team-research @Armor-test/squad-cloud
+/src/ @Armor-test/grp-api @Armor-test/squad-performance
+/dist/ @Armor-test/dept-billing @Armor-test/grp-search
+/middleware/ @Armor-test/squad-apps @Armor-test/squad-qa
+/auth/ @Armor-test/team-frontend @Armor-test/unit-design
+/build/ @Armor-test/team-frontend @Armor-test/squad-research @Armor-test/dept-api
+/assets/ @Armor-test/unit-test @Armor-test/dept-data @Armor-test/squad-performance
+/styles/ @Armor-test/dept-security @Armor-test/dept-reporting @Armor-test/squad-frontend
+/vendor/ @Armor-test/grp-integration @Armor-test/squad-cache @Armor-test/dept-billing
+
+# File type ownership
+*.toml @Armor-test/dept-security @Armor-test/team-logging @Armor-test/squad-payments
+*.c @Armor-test/grp-storage @Armor-test/team-core @Armor-test/grp-search
+*.cpp @Armor-test/squad-qa @Armor-test/dept-automation
+*.lock @Armor-test/grp-payments @Armor-test/unit-governance @Armor-test/grp-reporting
+*.md @Armor-test/unit-governance @Armor-test/dept-security @Armor-test/team-core
+*.ts @Armor-test/dept-automation @Armor-test/squad-frontend @Armor-test/grp-api
+*.json @Armor-test/dept-identity @Armor-test/dept-automation @Armor-test/unit-test
+*.css @Armor-test/squad-frontend @Armor-test/grp-search @Armor-test/dept-identity
+*.yml @Armor-test/dept-logging @Armor-test/squad-research @Armor-test/squad-qa
+*.java @Armor-test/dept-reliability @Armor-test/grp-payments @Armor-test/dept-security
+*.kt @Armor-test/dept-logging @Armor-test/grp-ui @Armor-test/unit-cloud
+*.config @Armor-test/unit-test @Armor-test/unit-devops @Armor-test/grp-storage
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
